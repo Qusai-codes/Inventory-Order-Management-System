@@ -1,0 +1,111 @@
+## .gitignore for C# / .NET projects in Visual Studio
+
+#################
+## Build results
+#################
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+#################################
+## Visual Studio / user-specific
+#################################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+mono_crash.*
+
+#############################
+## JetBrains Rider (if used)
+#############################
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+#############################
+## Test results / coverage
+#############################
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+BenchmarkDotNet.Artifacts/
+
+#################
+## NuGet
+#################
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+# Only relevant for older, non-PackageReference (packages.config) projects
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+#############################
+## Publish / deployment
+#############################
+publish/
+PublishScripts/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+#############################
+## Intermediate / temp files
+#############################
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.tlog
+*.log
+.builds
+*.pidb
+*.svclog
+*.scc
+
+#################
+## OS junk files
+#################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#################################
+## Local secrets / environment
+#################################
+*.env
+secrets.json
+appsettings.*.local.json
