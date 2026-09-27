@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="IOMS.Business/IOMS.Business.csproj" />
+  <Project Path="IOMS.DataAccess/IOMS.DataAccess.csproj" />
+  <Project Path="IOMS.Presentation/IOMS.Presentation.csproj" />
+</Solution>
